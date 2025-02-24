@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+#bestseller{
+    margin-top: 20px;
+    .container{
+        max-width: 1440px;
+        padding: 0 145px;
+        .bestseller_info{
+            text-align: center;
+            margin-bottom: 48px;
+            h2{
+                color: $sizecolor1;
+                text-align: center;
+                font-family: $fntfamily-m;
+                font-size: 20px;
+                font-style: normal;
+                font-weight: $fntwegiht-s;
+            }
+            h3{
+                color: $sizecolor2;
+                text-align: center;
+                font-family: $fntfamily-m;
+                font-size: 24px;
+                font-style: normal;
+                font-weight: 700;            
+            }
+            p{
+                color:  $sizecolor1;
+                text-align: center;
+                font-family: $fntfamily-m;
+                font-size: 14px;
+                font-style: normal;
+                font-weight: $fntwegiht-s;
+            }
+        }
+        .bestseller_cards{
+            .bestseller_card{
+                .bestseller_card_img{
+                    width: 100%;
+                }
+                .bestseller_card_info{
+                    padding: 25px 0;
+                    h5{
+                        color: $sizecolor2;
+                        margin-left: 25px;
+                        font-family: $fntfamily-m;
+                        font-size: 16px;
+                        font-style: normal;
+                        font-weight: $fntwegiht-m;
+                    }
+                    p{
+                        color: $sizecolor1;
+                        margin-left: 15px;
+                        font-family: $fntfamily-m;
+                        font-size: 14px;
+                        font-style: normal;
+                        font-weight: $fntwegiht-m;
+                    }
+                    h4{
+                        color: #BDBDBD;
+                        margin-left: 35px;
+                        font-family: $fntfamily-m;
+                        font-size: 16px;
+                        font-style: normal;
+                        font-weight: $fntwegiht-m;
+                        span{
+                            color: $sizecolor3;
+                        }
+                    }
+                }
+            }
+        }
+        .bestseller_btn{
+            margin-top: 60px;
+            margin-bottom: 160px;
+            text-align: center;
+            button{
+                color: $sizecolor4;
+                text-align: center;
+                font-family: $fntfamily-m;
+                font-size: 14px;
+                font-style: normal;
+                font-weight: $fntwegiht-m;
+                padding: 15px 40px;
+                border-radius: 5px;
+                border: 1px solid $sizecolor4;
+                background-color: transparent;
+                transition: 0.4s ease-in-out;
+                &:hover{
+                    background-color: $sizecolor4;
+                    border: 1px solid $sizecolor4;
+                    color: white;
+                }
+            }
+        }
+    }
+}

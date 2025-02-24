@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+#welove{
+    .container{ 
+        max-width: 1440px;
+        padding: 0 145px;
+        .welove_card{
+            margin-bottom: 80px;
+            .welove_card_left{
+                .welove_card_left_img_{
+                    img{
+                        @extend %defaultImg;
+                    }
+                }
+            }
+            .welove_card_right{
+                margin-top: 120px;
+                margin-left: 20px;
+                h5{
+                    color: $sizecolor4;
+                    font-family: $fntfamily-m;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: $fntwegiht-m;
+                }
+                h2{
+                    margin: 16px 0;
+                    color: $sizecolor2;
+                    font-family: $fntfamily-m;
+                    font-size: 40px;
+                    font-style: normal;
+                    font-weight: $fntwegiht-m;
+                }
+                p{
+                    color: $sizecolor1;
+                    font-family: $fntfamily-m;
+                    font-size: 14px;
+                    font-style: normal;
+                    font-weight: $fntwegiht-s;
+                 }
+            }
+        }
+    }
+}
