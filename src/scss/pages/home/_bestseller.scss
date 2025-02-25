@@ -43,7 +43,9 @@
         .bestseller_cards{
             .bestseller_card{
                 .bestseller_card_img{
-                    width: 100%;
+                    img{
+                        width: 100% !important;
+                    }
                 }
                 .bestseller_card_info{
                     padding: 25px 0;

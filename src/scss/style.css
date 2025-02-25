@@ -47,8 +47,8 @@
   font-style: normal;
   font-weight: 400;
 }
-#bestseller .container .bestseller_cards .bestseller_card .bestseller_card_img {
-  width: 100%;
+#bestseller .container .bestseller_cards .bestseller_card .bestseller_card_img img {
+  width: 100% !important;
 }
 #bestseller .container .bestseller_cards .bestseller_card .bestseller_card_info {
   padding: 25px 0;
